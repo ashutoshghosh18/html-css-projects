@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Twitter Character Counter</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #111827;
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+
+        textarea {
+            width: 400px;
+            height: 120px;
+            padding: 15px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 25px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Twitter Character Counter</h1>
+
+    <textarea id="text" placeholder="Write your tweet"></textarea>
+    <br>
+
+    <button onclick="countCharacters()">Check</button>
+
+    <p id="result"></p>
+
+    <script>
+
+        function countCharacters() {
+
+            var text = document.getElementById("text").value;
+
+            var characters = text.split("").length;
+
+            var left = 280 - characters;
+
+            document.getElementById("result").innerHTML =
+                "Characters written: " + characters +
+                "<br>Characters left: " + left;
+        }
+
+    </script>
+
+</body>
+</html>

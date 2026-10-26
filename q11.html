@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Box Model</title>
+
+    <style>
+        body {
+            background-color: white;
+        }
+
+        .box1 {
+            width: 450px;
+            height: 460px;
+            background-color: cadetblue;
+            border: 15px solid black;
+            padding: 20px;
+            box-sizing: border-box;
+            margin: 10px 0 0 10px;
+        }
+
+        .box2 {
+            width: 380px;
+            height: 420px;
+            background-color: gold;
+            border: 15px solid black;
+            box-sizing: border-box;
+            margin-left: 450px;
+            margin-top: 0;
+        }
+
+        .box3 {
+            width: 380px;
+            height: 380px;
+            background-color: indianred;
+            border: 15px solid black;
+            box-sizing: border-box;
+            margin-left: 80px;
+            margin-top: 30px;
+        }
+
+        p {
+            margin: 0;
+            font-size: 22px;
+            line-height: 1.5;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box1">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Aliquam at sapien porttitor urna elementum lacinia.
+            In id magna pulvinar, ultricies lorem id, vehicula elit.
+            Aliquam eu luctus nisl, vitae pellentesque magna.
+            Phasellus dolor metus, laoreet ac convallis sit amet,
+            efficitur sed dolor.
+        </p>
+    </div>
+
+    <div class="box2"></div>
+
+    <div class="box3"></div>
+
+</body>
+
+</html>

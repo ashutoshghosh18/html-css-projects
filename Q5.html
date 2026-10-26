@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #121212;
+        }
+
+        .box {
+            width: 380px;
+            margin: 100px auto;
+            padding: 35px;
+            background-color: #1e1e1e;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px black;
+        }
+
+        h2 {
+            text-align: center;
+            color: white;
+            margin-bottom: 25px;
+        }
+
+        label {
+            color: #ddd;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0 18px;
+            box-sizing: border-box;
+            background-color: #292929;
+            color: white;
+            border: 1px solid #444;
+            border-radius: 6px;
+        }
+
+        input:focus {
+            border: 1px solid #8b5cf6;
+            outline: none;
+        }
+
+        button {
+            padding: 11px 20px;
+            margin-top: 5px;
+            background-color: #8b5cf6;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button[type="reset"] {
+            background-color: #444;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="box">
+
+    <h2>Login</h2>
+
+    <form>
+        <label>Username:</label>
+        <input type="text">
+
+        <label>Password:</label>
+        <input type="password">
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Book Store</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background-color: #f5f3ef;
+        }
+
+        .top {
+            background-color: #242424;
+            color: white;
+            padding: 10px 50px;
+            text-align: right;
+        }
+
+        .header {
+            background-color: white;
+            padding: 20px 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 60px;
+            height: 60px;
+            margin-right: 15px;
+        }
+
+        .logo h2 {
+            margin: 0;
+            color: #333;
+        }
+
+        .search input {
+            width: 300px;
+            padding: 12px;
+            border: 1px solid #bbb;
+        }
+
+        .nav {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+        }
+
+        .main {
+            text-align: center;
+            padding: 50px 30px;
+        }
+
+        .main h1 {
+            color: #333;
+            font-size: 35px;
+        }
+
+        .main p {
+            color: #666;
+        }
+
+        .books {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 35px;
+        }
+
+        .book {
+            background-color: white;
+            width: 180px;
+            padding: 15px;
+            border: 1px solid #ddd;
+        }
+
+        .book img {
+            width: 180px;
+            height: 230px;
+            object-fit: cover;
+        }
+
+        .book h3 {
+            font-size: 16px;
+        }
+
+        .book p {
+            color: #777;
+        }
+
+        .footer {
+            background-color: #242424;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="top">
+        Welcome to our Online Book Store
+    </div>
+
+    <div class="header">
+
+        <div class="logo">
+            <img src="kiet-logo.png" alt="KIET Logo">
+
+            <div>
+                <h2>KIET Book Store</h2>
+                <p>KIET Group of Institutions</p>
+            </div>
+        </div>
+
+        <div class="search">
+            <input type="text" placeholder="Search books">
+        </div>
+
+    </div>
+
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="registration.html">Registration</a>
+        <a href="catalogue.html">Catalogue</a>
+        <a href="cart.html">Cart</a>
+    </div>
+
+    <div class="main">
+
+        <h1>Welcome to KIET Book Store</h1>
+
+        <p>
+            Explore books for study, knowledge and entertainment.
+        </p>
+
+        <div class="books">
+
+            <div class="book">
+                <img src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=300">
+                <h3>Computer Science</h3>
+                <p>₹450</p>
+            </div>
+
+            <div class="book">
+                <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=300">
+                <h3>Engineering Mathematics</h3>
+                <p>₹350</p>
+            </div>
+
+            <div class="book">
+                <img src="https://images.unsplash.com/photo-1532012197267-da84d127e765?w=300">
+                <h3>Programming in C++</h3>
+                <p>₹500</p>
+            </div>
+
+            <div class="book">
+                <img src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=300">
+                <h3>Physics</h3>
+                <p>₹400</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>© 2026 KIET Online Book Store</p>
+    </div>
+
+</body>
+</html>
